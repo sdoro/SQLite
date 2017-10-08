@@ -1,5 +1,5 @@
 -- Album
-CREATE TABLE Album (
+CREATE TABLE Album02 (
 	AlbumId INT NOT NULL,
 	Title VARCHAR(160) NOT NULL,
 	ArtistId INT NOT NULL,
@@ -7,7 +7,7 @@ CREATE TABLE Album (
 );
 
 -- Artist
-CREATE TABLE Artist (
+CREATE TABLE Artist02 (
 	ArtistId INT NOT NULL,
 	Name VARCHAR(120),
 	CONSTRAINT Pk_Artist PRIMARY KEY (ArtistId),          -- PRIMARY KEY
